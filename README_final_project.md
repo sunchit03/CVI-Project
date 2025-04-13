@@ -57,7 +57,7 @@ Based on the [NVIDIA End-to-End Self-Driving CNN](https://arxiv.org/abs/1604.073
 - Loss Function: Mean Squared Error (MSE)
 - Evaluation: Validation loss and visual track performance
 
-![Loss Curve](model/loss_curve.png)
+![Loss Curve](loss_curve.png)
 
 ---
 
