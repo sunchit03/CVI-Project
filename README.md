@@ -74,7 +74,8 @@ CVI-Project/
 
 - ✅ Smooth driving across the entire track
 - 📉 Final validation loss: ~0.016
-![Loss Curve](lossVSepochs.png)
+
+   ![Loss Curve](lossVSepochs.png)
 
 ---
 
