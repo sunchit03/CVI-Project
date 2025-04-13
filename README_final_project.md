@@ -7,36 +7,6 @@ This repository contains the code, data, and documentation for our CVI620 final 
 
 This project presents an autonomous vehicle prototype using the Udacity Self-Driving Car Simulator and a deep learning model based on the NVIDIA CNN architecture. The objective was to train a model that can predict steering angles based on center camera images. The CNN model was trained on recorded driving data and evaluated based on MSE and the car’s ability to drive autonomously in the simulator.
 
----
-
-## 📁 Folder Structure
-
-```
-/SelfDrivingCarProject/
-│
-├── data/
-│   ├── IMG/                    # Recorded driving images
-│   └── driving_log.csv         # Steering, throttle, brake, speed data
-│
-├── model/
-│   ├── model.py                # Model architecture (NVIDIA CNN)
-│   ├── train.py                # Training script
-│   ├── optimized_model.h5      # Final trained model
-│   └── loss_curve.png          # Loss graph
-│
-├── test/
-│   └── TestSimulation.py       # Loads model into simulator
-│
-├── utils/
-│   └── preprocess_utils.py     # Preprocessing functions
-│
-├── README.md                   # This file
-├── project_report.md           # Optional final report
-├── demo_video.mp4              # Screen recording of model driving
-└── requirements.txt            # Environment dependencies
-```
-
----
 
 ## 🛠️ Technologies Used
 
@@ -101,7 +71,7 @@ If not, simulation testing was skipped due to hardware limitations (documented i
 ## 👥 Team Contributions
 
 - Artom: Data generation, driving and dataset creation
-- [Teammate]: Built the CNN model and handled initial training
+- Sunchit: Built the CNN model and handled initial training
 - **Rutarj**: Model tuning and optimization, documentation, loss visualization, and report preparation
 
 ---
